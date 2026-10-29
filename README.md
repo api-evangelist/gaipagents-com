@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gaipagents-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://gaipagents.com/
+GAIP (Governed Agentic Intelligence Platform) provides a public, read‑only API that records and serves dated evidence of AI agents, MCP servers, and online shops. It offers OpenAPI 3.1 specification, MCP and A2A JSON‑RPC endpoints, and a suite of discovery documents (agent‑card, AI catalog, llms.txt). The service is free, requires no authentication, and returns signed receipts for queries, enabling transparent verification of published data. Operated by GAIP, the platform aims to foster trustworthy AI interoperability.
+
+**Areas:** Company · AI · Agentic · MCP · A2A · OpenAPI
+
+## gaipagents-com on APIs.io
+
+Everything profiled for gaipagents-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gaipagents-com/](https://apis.io/providers/gaipagents-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [gaipagents-com Agent Observatory API](https://apis.io/apis/gaipagents-com/gaipagents-com-agent-observatory-api/) — Conformance of A2A, MCP and OpenAPI declarations and the manifest change log.
+- [gaipagents-com Delivery Assurance API](https://apis.io/apis/gaipagents-com/gaipagents-com-delivery-assurance-api/) — Pre-delegation checks, delivery terms, witnessing and citation checks.
+- [gaipagents-com Discovery API](https://apis.io/apis/gaipagents-com/gaipagents-com-discovery-api/) — Agent cards, MCP Server Cards, catalogs, guides and product documents.
+- [gaipagents-com Evidence Ledger API](https://apis.io/apis/gaipagents-com/gaipagents-com-evidence-ledger-api/) — Receipts, verification, evidence packs, incident bundles and outcomes.
+- [gaipagents-com Platform API](https://apis.io/apis/gaipagents-com/gaipagents-com-platform-api/) — Status, history and other platform resources.
+- [gaipagents-com Supplier Reliability API](https://apis.io/apis/gaipagents-com/gaipagents-com-supplier-reliability-api/) — Supplier snapshots, change watch and failed-call diagnosis.
+- [gaipagents-com The record API](https://apis.io/apis/gaipagents-com/gaipagents-com-the-record-api/) — Answers read from GAIP's dated record of what was published, as indexed, each with a receipt.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Gaipagents Com Agentic Access](https://apis.io/agentic-access/gaipagents-com/gaipagents-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Gaipagents Com Context](https://apis.io/jsonld/gaipagents-com/gaipagents-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Gaipagents Com Openapi Overlay](https://apis.io/overlays/gaipagents-com/gaipagents-com-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [gaipagents-com API Rules](https://apis.io/rules/gaipagents-com/gaipagents-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gaipagents Com Authentication](https://apis.io/security/gaipagents-com/gaipagents-com-authentication/)
+- [Gaipagents Com Domain Security](https://apis.io/security/gaipagents-com/gaipagents-com-domain-security/)
+- [Gaipagents Com Vulnerability Disclosure](https://apis.io/security/gaipagents-com/gaipagents-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Gaipagents Com Scopes](https://apis.io/scopes/gaipagents-com/gaipagents-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gaipagents Com Plans Pricing](https://apis.io/plans/gaipagents-com/gaipagents-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Gaipagents Com Rate Limits](https://apis.io/rate-limits/gaipagents-com/gaipagents-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gaipagents.com/)
+- [Documentation](https://www.gaipagents.com/)
+- [Getting started](https://www.gaipagents.com/docs/quickstart)
+- [API reference](https://gaipagents.com/openapi.json)
+- [Pricing](https://www.gaipagents.com/v1/free/plans)
+- [Changelog](https://www.gaipagents.com/changelog)
+- [Security](https://www.gaipagents.com/security)
+- [Terms of service](https://gaipagents.com/terms)
+- [Privacy policy](https://gaipagents.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.7** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 31.6 |
+
+**Agent readiness 42.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gaipagents-com/](https://apis.io/providers/gaipagents-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for gaipagents-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gaipagents-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
